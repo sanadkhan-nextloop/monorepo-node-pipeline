@@ -30,4 +30,4 @@ jobs:
         cache: 'npm'
     - run: |
         cd packages/backend
-        npm ci
+        npm i
