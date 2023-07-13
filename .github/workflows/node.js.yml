@@ -29,5 +29,6 @@ jobs:
         node-version: ${{ matrix.node-version }}
         cache: 'npm'
     - run:
-        cd "packages/backend"
+        cd packages
+        cd backend
         npm ci
